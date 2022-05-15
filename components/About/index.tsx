@@ -2,8 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-      <section className="mx-10 mt-10 flex h-screen items-center justify-center md:mt-20">
+    <>
+    <div className='complete ' style={{backgroundImage:`url(images/complete.png)`}}>
+      <section className="mx-10  flex h-screen items-center justify-center ">
         <div>
           <h4 className="text-center text-xl font-bold uppercase text-[#CB3694] md:text-2xl ">
             About studio
@@ -28,6 +29,7 @@ const About = () => {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

@@ -4,10 +4,11 @@ import Images from '../../public/images/Images'
 
 const Subscription = () => {
   return (
-    <div>
-      <section className="mx-10 md:mx-5 ">
+    <>
+    <div className='my-10'>
+      <section className=" mx-10 mt-20 md:mx-5 ">
         <div
-          className="heroImage mx-auto grid max-w-6xl grid-cols-1 place-content-center place-items-center rounded-3xl border-4 border-[#CB3694] md:h-[500px] md:grid-cols-2 md:rounded-[50px] lg:rounded-[75px]"
+          className="heroImage  mx-auto grid max-w-6xl grid-cols-1 place-content-center place-items-center rounded-3xl border-4 border-[#CB3694] md:h-[500px] md:grid-cols-2 md:rounded-[50px] lg:rounded-[75px]"
           style={{
             backgroundImage: `url(images/newsbg2.png)`,
             backgroundSize: 'cover ',
@@ -37,6 +38,7 @@ const Subscription = () => {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

@@ -8,8 +8,8 @@ const Projects = () => {
   const smallFont1 = ['font-bold text-lg']
   const smallFont2 = ['text-lg font-extralight text-gray-400']
   return (
-    <div>
-      <section className="pt-40">
+    <div  style={{ backgroundImage: `url(images/star.png)`, backgroundColor:"black"}}>
+      <section className="pt-40" >
         <h1 className="m-5 text-center text-4xl font-bold md:text-5xl lg:text-6xl">
           KICKSALE PROJECTS
         </h1>
@@ -59,7 +59,7 @@ const Projects = () => {
                     </div>
                     <div className="relative -left-2 mt-auto p-5 md:p-0">
                       <button
-                        className={`${navLargeBtn} mt-5 j w-full bg-[#5133D5] lg:mt-10 `}
+                        className={`${navLargeBtn} mt-5 j w-full  bg-[#5133D5] lg:mt-10 `}
                       >
                         more details
                       </button>

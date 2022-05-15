@@ -37,9 +37,11 @@ export default function Faqs() {
     <>
       <Box
         py={10}
+        mb={10}
         sx={{
-          background: 'url(../public/images/faq.png)',
+          background: `url(images/faq.png)`,
         }}
+      className="faq"
       >
         <Box
           py={30}

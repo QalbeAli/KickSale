@@ -7,8 +7,8 @@ const table = () => {
   ]
   
   return (
-    <div>
-      <section className="mt-10">
+    <div className='cardbg pt-20' style={{backgroundImage:`url(images/bgtable.png)`}}>
+      <section className="pt-10">
         <div>
           <h2 className="text-center text-4xl font-bold">
             KickSale Tier & Access to IMO

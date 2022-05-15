@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="heroImage " style={{ backgroundImage: `url(images/hero.png)` }}>
       <Header />
-      <section className="flex h-[400px] w-screen items-end justify-center md:h-[700px] ">
+      <section className="flex h-[400px]  items-end justify-center md:h-[700px] ">
         <div className="mx-10 max-w-5xl pb-20 text-center uppercase">
           <h1 className="text-2xl font-bold sm:text-3xl md:text-4xl lg:text-6xl">
             A Launchpad for Initial Metaverse Offerings

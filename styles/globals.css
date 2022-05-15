@@ -9,6 +9,8 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
+    /* border:2px solid red */
+
 }
 a{
   cursor: pointer;
@@ -20,6 +22,7 @@ body{
     font-family: 'Syne', sans-serif;
     background: rgba(0,0,0,.7);
     color:#fff;
+    background-color: black;
 }
 
 small{
@@ -61,7 +64,37 @@ padding-top: 20px;
 width: 100%;
 }
 
+.complete{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
 
+.cardbg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.faq{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.projetbg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.subscribe{
+  background-color: black;
+}
 /* Accordion Css  */
 
 .accordion {

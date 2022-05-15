@@ -16,22 +16,26 @@ function Header() {
   return (
     <div className="p-5">
       <div className=" relative z-10  flex items-center justify-between rounded-full bg-black p-2 text-white lg:bg-[rgba(0,0,0,.6)]">
-        <Image
-          src={Images.logo}
-          width="352px"
-          height="80px"
-          className="cursor-pointer"
-        />
+        <Link href="/">
+          <a>
+            <Image
+              src={Images.logo}
+              width="352px"
+              height="80px"
+              className="cursor-pointer"
+            />
+          </a>
+        </Link>
 
         <div className="ml-10 hidden flex-1 items-center lg:flex">
           <Link href="/">
-            <a className={`${navSmallBtn}`}>Home</a>
+            <a className={`${navSmallBtn}`}>IDO</a>
           </Link>
-          <Link href="/">
-            <a className={`${navSmallBtn}`}>Staking</a>
+          <Link href="/staking">
+            <a className={`${navSmallBtn}`}>IMO</a>
           </Link>
-          <Link href="/">
-            <a className={`${navSmallBtn}`}>Projects</a>
+          <Link href="/Ido">
+            <a className={`${navSmallBtn}`}>IGO</a>
           </Link>
         </div>
         <div className="relative hidden items-center space-x-3  p-4 lg:flex">
@@ -48,6 +52,11 @@ function Header() {
             <li className={`${popupBtn}`}> staking</li>
             <li className={`${popupBtn}`}>Linking Wallets</li>
             <li className={`${popupBtn}`}>My Portfolio</li>
+            <Link href="/RoadMap">
+              <a>
+                <li className={`${popupBtn}`}>RoadMap</li>
+              </a>
+            </Link>
           </ul>
 
           <Link href="/">
@@ -76,7 +85,7 @@ function Header() {
                   onClick={showPop}
                   className={`${navLargeBtn}  bg-[#31303E] transition hover:text-[#8B70FF]`}
                 >
-                  <Link href="/">Accounts</Link>
+                  Accounts
                 </div>
                 <ul
                   className={`${popup} absolute top-14  -left-8 w-[250px]  space-y-3 rounded-3xl bg-[#535268f3] py-5 px-4 shadow-lg transition`}
@@ -85,13 +94,12 @@ function Header() {
                   <li className={`${popupBtn}`}> staking</li>
                   <li className={`${popupBtn}`}>Linking Wallets</li>
                   <li className={`${popupBtn}`}>My Portfolio</li>
+                  <li className={`${popupBtn}`}>RoadMap</li>
                 </ul>
-                <Link href="/">
                   <div className={`${navLargeBtn} bg-[#8B70FF] text-center`}>
                     {' '}
                     Wallet
                   </div>
-                </Link>
               </div>
             </div>
           </div>
